@@ -134,10 +134,10 @@ class SliverBrnHorizontalStep extends StatefulWidget {
   final ValueNotifier<double> valueNotifier;
 
   @override
-  _BrnHorizontalStepsState createState() => _BrnHorizontalStepsState();
+  _SliverBrnHorizontalStepsState createState() => _SliverBrnHorizontalStepsState();
 }
 
-class _BrnHorizontalStepsState extends State<SliverBrnHorizontalStep> {
+class _SliverBrnHorizontalStepsState extends State<SliverBrnHorizontalStep> {
   List<BrunoStep> brunoSteps() {
     final List<BrunoStep> _list = [];
     final int value = widget.valueNotifier.value.toInt();
